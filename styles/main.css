@@ -176,6 +176,7 @@ img {
 
 .hero__link {
   display: flex;
+  justify-content: center;
   width: 223px;
   padding: 12px 16px;
   font-size: 17px;
@@ -203,3 +204,72 @@ img {
 }
 
 /* hero section ends */
+
+/* about us section starts */
+
+.about {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
+
+.about__content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about__desc-wrapepr {
+  width: 700px;
+}
+
+.about__title {
+  margin-block: 0;
+  font-size: 55px;
+  line-height: 70px;
+  color: #333;
+}
+
+.about__redtitle {
+  color: #e1af93;
+}
+
+.about__desc {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+.about__list {
+  display: flex;
+  column-gap: 120px;
+  margin-block: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
+  list-style-type: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.about__link {
+  text-decoration-line: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #858585;
+}
+
+.about__link-rent {
+  padding-bottom: 17px;
+  font-weight: 600;
+  color: #e1af93;
+  border-bottom: 2px solid #e1af93;
+}
+
+.about__arrow-list {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 590px);
+}
+
+/* about us section ends */
