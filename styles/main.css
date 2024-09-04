@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-  width: 1240px;
+  width: 1480px;
   margin-inline: auto;
   padding-inline: 20px;
 }
@@ -268,8 +268,12 @@ img {
 
 .about__arrow-list {
   position: absolute;
-  top: calc(50% - 50px);
-  left: calc(50% - 590px);
+  top: calc(50% - 130px);
+  left: calc(50% - 700px);
+}
+
+.about__img {
+  margin-inline: auto;
 }
 
 /* about us section ends */
@@ -358,3 +362,58 @@ img {
 }
 
 /* services section ends */
+
+/* advantages section starts */
+
+.advantages {
+  padding-bottom: 150px;
+}
+
+.advantages__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #333;
+}
+
+.advantages__list {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: 466px 466px 466px;
+  grid-template-rows: 326px 326px 326px;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  /* align-items: center; */
+  border: 1px solid #eaeaea;
+}
+
+.advantages__item-wrapper {
+  padding-inline: 30px;
+}
+
+.advantages__subtitle {
+  margin-block: 0;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333;
+}
+
+.advantages__desc {
+  margin-block: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  opacity: 0.8;
+}
+
+/* advantages section ends */
