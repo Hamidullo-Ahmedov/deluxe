@@ -307,3 +307,54 @@ img {
 }
 
 /* estate section ends */
+
+/* services section starts */
+
+.services {
+  padding-block: 250px;
+}
+
+.services__title {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #333;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.services__desc {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-block: 0;
+  padding-block: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  border-top: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+}
+
+.services__desc::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/checkmark-min.svg");
+  background-repeat: no-repeat;
+}
+
+.services__desc-even {
+  padding-left: 20px;
+  border-right: none;
+}
+
+/* services section ends */
