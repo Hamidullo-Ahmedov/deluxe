@@ -531,3 +531,95 @@ img {
 }
 
 /* newbuilds section ends */
+
+/* ipoteka section starts */
+
+.ipoteka {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.ipoteka__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #333;
+}
+
+.ipoteka__wrapper {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px #0f11120d;
+}
+
+.ipoteka__content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ipoteka__form {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+
+.ipoteka__label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #858585;
+}
+
+.ipoteka__input {
+  margin-top: 8px;
+  padding: 12px 16px;
+  border: 1px solid #eaeaea;
+}
+
+.ipoteka__input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b3b3b3;
+}
+
+.total-list {
+  display: grid;
+  grid-template-columns: 218px 218px;
+  grid-template-rows: 62px 62px;
+  gap: 40px 30px;
+  height: 192px;
+  margin-block: 0;
+  padding-left: 60px;
+  list-style-type: none;
+  border-left: 1px solid #eaeaea;
+}
+
+.total-title {
+  margin-block: 0;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #333;
+}
+
+.total-desc {
+  margin-block: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #b3b3b3;
+}
+
+.ipoteka__btn {
+  display: inline-block;
+  width: 223px;
+  margin-top: 40px;
+  padding-block: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e1af93;
+  border: none;
+}
+
+/* ipoteka section ends */
