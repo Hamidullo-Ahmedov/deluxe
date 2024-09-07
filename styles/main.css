@@ -623,3 +623,63 @@ img {
 }
 
 /* ipoteka section ends */
+
+/* question section starts */
+
+.question {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.question__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #edf3f5;
+}
+
+.question__content {
+  width: 588px;
+  padding-block: 60px;
+  padding-left: 60px;
+}
+
+.question__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #333;
+}
+
+.question__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 407px;
+}
+
+.question__input {
+  padding-block: 12px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #eaeaea;
+  outline: none;
+}
+
+.question__input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333; 
+}
+
+.question__btn {
+  width: 223px;
+  padding-block: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e1af93;
+  border: none;
+}
+
+/* question section ends */
