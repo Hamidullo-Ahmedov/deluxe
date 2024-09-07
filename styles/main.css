@@ -195,6 +195,15 @@ img {
   text-decoration-line: none;
   color: #fff;
   background-color: #e1af93;
+  transition: background-color 0.3s linear;
+}
+
+.hero__link:hover {
+  background-color: #eac7b4;
+}
+
+.hero__link:active {
+  background-color: #b48c76;
 }
 
 .arrow-list {
@@ -539,6 +548,15 @@ img {
   font-weight: 600;
   color: #fff;
   background-color: #e1af93;
+  transition: background-color 0.3s linear;
+}
+
+.newbuilds__link:hover {
+  background-color: #eac7b4;
+}
+
+.newbuilds__link:active {
+  background-color: #b48c76;
 }
 
 /* newbuilds section ends */
@@ -631,6 +649,15 @@ img {
   color: #fff;
   background-color: #e1af93;
   border: none;
+  transition: background-color 0.3s linear;
+}
+
+.ipoteka__btn:hover {
+  background-color: #eac7b4;
+}
+
+.ipoteka__btn:active {
+  background-color: #b48c76;
 }
 
 /* ipoteka section ends */
@@ -691,6 +718,15 @@ img {
   color: #fff;
   background-color: #e1af93;
   border: none;
+  transition: background-color 0.3s linear;
+}
+
+.question__btn:hover {
+  background-color: #eac7b4;
+}
+
+.question__btn:active {
+  background-color: #b48c76;
 }
 
 /* question section ends */
@@ -787,6 +823,15 @@ img {
   font-weight: 600;
   color: #fff;
   background-color: #e1af93;
+  transition: background-color 0.3s linear;
+}
+
+.blog__link:hover {
+  background-color: #eac7b4;
+}
+
+.blog__link:active {
+  background-color: #b48c76;
 }
 
 
